@@ -1,0 +1,63 @@
+.navbar{
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.hamburger .menuItem{
+    list-style: none;
+}
+
+@media screen and (max-width: 768px){
+    .links{
+        justify-content: space-between;
+    }
+    .links a{
+        display: none;
+    }
+    .hamburger{
+        display: flex;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .activeHamburger{
+        background: rgba(0, 0, 0, 0.8);
+        width: 40vw;
+        animation: slideIn 1s forwards;
+        height: 100vh;
+    }
+    .hamburger .menuItem{
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+    .hamburger .menuItem.open{
+        padding-top: 25px;
+    }
+    .hamburger .menuItem.close{
+        display: none;
+    }
+    .hamburger .menuItem.icon{
+        justify-content: flex-end;
+    }
+    .activeHamburger .menuItem.close{
+        display: flex;
+        font-size: 1.5rem;
+    }
+    .activeHamburger .open{
+        display: none;
+    }
+    .activeHamburger .menuItem a{
+        display: block;
+    }
+}
+
+
+@keyframes slideIn {
+    from {
+      right: -100%;
+    }
+    to {
+      right: 0;
+    }
+  }

@@ -1,0 +1,16 @@
+@media screen and (max-width : 768px){
+    .about-bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-bottom .middle{
+        width: 100%;
+    }
+    .about .skills{
+        flex-direction: column;
+        display: flex;
+    }
+    .about .skills > div{
+        width: 100%;
+    }
+}

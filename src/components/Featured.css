@@ -1,0 +1,7 @@
+
+.card_container h1{
+    display: none;
+}
+.card_container:hover h1{
+    display: block;
+}

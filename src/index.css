@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: Neue Montreal;
+}
+a{
+  white-space: nowrap;
+}
+h1{
+  /* font-family: Founders_Grotesk; */
+  /* font-family: Founders_ Grotesk_X-Condensed; */
+}

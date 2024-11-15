@@ -1,0 +1,9 @@
+@media screen and (max-width : 768px){
+    .aboutPage-section > div{
+        flex-direction: column;
+    }
+    .skills,
+    .experience{
+        width: 100%;
+    }
+}

@@ -1,0 +1,12 @@
+@media screen and (max-width : 768px){
+    .cardContainer{
+        height: max-content;
+        flex-direction: column;
+    }
+    .cardContainer > div{
+        width: 100%;
+    }
+    .box-rev{
+        flex-direction: column-reverse;
+    }
+}
